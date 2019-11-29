@@ -1,0 +1,100 @@
+*{
+	box-sizing:border-box;
+	display: flex;
+	flex-direction: column;
+
+}
+
+title{
+	display: none;
+}
+
+#page-title{
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: top;
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/header.jpg);
+	
+	height:500px;
+	width:100%;
+	font-family: "Miriam Libre", sans-serif;
+	font-size: 30px;
+	color: white;
+	text-align: center;
+}
+
+#title{
+	max-width: 780px;
+	padding-top: 150px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+#profile{
+	font-family: 'Alice', serif;
+	font-size: 30px;
+	color: rgb(51,51,51);
+	line-height: 38px;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+
+}
+
+.date{
+	font-size:20px;
+	border-bottom: 2px solid lightgray;
+	padding-bottom: 2px;
+}
+#profile-image{
+	width: 100px;
+	border-radius: 100%;
+	border: 1px solid white;
+	position:absolute;
+	top: 500px;
+	left: 50%;
+	/** since you didn't teach us about transform css selector so I searched it on https://pineco.de/absolute-centering-with-css/ */
+    transform: translate(-50%, -50%);
+	margin-bottom: 10px;
+}
+
+#wrapper{
+	width: 66.6%;
+	margin: auto;
+}
+
+#heading{
+	font-family: "Zilla Slab Highlight", cursive;
+	font-size:45px;
+	font-weight:bold;
+	color:rgb(51, 51, 51);
+}
+
+#links {
+	font-size:20px;
+	text-decoration: none;
+	color: #42b4d6;
+	
+}
+#links:hover{
+	text-decoration: underline;
+	
+}
+
+#content{
+	font-family: 'Alice', serif;
+	font-size: 23px;
+	line-height:32px;
+	color:rgb(51,51,51);
+}
+
+.quotes {
+	font-size: 20px;
+	display:inline;
+	font-style: italic;
+	background-color: gold;
+}
