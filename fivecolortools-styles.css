@@ -13,7 +13,7 @@ title{
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: top;
-	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(images/header.jpg);
+	background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3)), url(header.jpg);
 	
 	height:500px;
 	width:100%;
